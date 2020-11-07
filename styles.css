@@ -43,6 +43,8 @@ body {
   margin-right: -4px;
   color: #3c64b1;
   background-color: white;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
 }
 #Start {
   border-top-right-radius: 5px;
@@ -50,6 +52,8 @@ body {
   margin-left: -3px;
   color: white;
   background-color: #484bff;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
 }
 #Login:hover {
   transform: scale(1.1);
@@ -134,6 +138,8 @@ body {
   font-size: 1rem;
   line-height: 30px;
   transition: 0.4s;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
 }
 .search-box:hover > .search-txt {
   width: 500px;
