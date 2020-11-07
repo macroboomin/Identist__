@@ -476,9 +476,9 @@ h1 {
   text-transform: uppercase;
   font-size: 13px;
   text-align: center;
-  color: #1059ff;
+  color: #484bff;
   margin-top: -8px;
-  border: solid 1px #1059ff;
+  border: solid 1px #484bff;
   opacity: 0;
   transition: top 1.5s ease 0.35s, opacity 0.75s ease 0.5s;
 }
@@ -490,7 +490,7 @@ h1 {
 
 a.btn-goback:hover {
   cursor: pointer;
-  background-color: #0f4fe6;
+  background-color: #484bff;
   transition: all 0.5s;
   color: #ffffff;
 }
@@ -517,6 +517,6 @@ a.btn-goback:hover {
 
 .refreshicon:hover {
   cursor: pointer;
-  fill: #1059ff;
+  fill: #484bff;
   transform: rotate(180deg);
 }
