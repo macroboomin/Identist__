@@ -168,7 +168,7 @@ body {
   float: left;
   position: absolute;
   top: 70%;
-  left: 56%;
+  left: 55.5%;
   transform: translateX(-50%);
   text-align: center;
   display: flex;
@@ -180,15 +180,17 @@ body {
   text-align: left;
   display: inline-block;
   font-size: 18px;
-  line-height: 140%;
+  line-height: 160%;
   font-family: "Roboto", sans-serif;
   font-style: normal;
+  color: gray;
 }
 
 .topic_child_topic{
   text-align: left;
   font-size: 28px;
-  line-height: 160%;
+  line-height: 170%;
   font-family: "Roboto", sans-serif;
   font-style: normal;
+  color: black;
 }
