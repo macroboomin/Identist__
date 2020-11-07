@@ -168,7 +168,7 @@ body {
   float: left;
   position: absolute;
   top: 70%;
-  left: 57%;
+  left: 56%;
   transform: translateX(-50%);
   text-align: center;
   display: flex;
@@ -180,7 +180,7 @@ body {
   text-align: left;
   display: inline-block;
   font-size: 18px;
-  margin-top: 5px;
+  line-height: 150%;
 }
 
 .topic_child_topic{
