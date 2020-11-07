@@ -172,10 +172,11 @@ body {
   transform: translateX(-50%);
   text-align: center;
   display: flex;
+  margin: 20px;
 }
 
 .topic_child{
-  width: 200px;
+  width: 160px;
   height: 100px;
   text-align: left;
   display: inline-block;
