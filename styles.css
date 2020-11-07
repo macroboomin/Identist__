@@ -164,10 +164,17 @@ body {
   color: #484bff;
 }
 
-#topic {
+.topic {
   float: left;
   position: relative;
   top: 70%;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.sub_topic{
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  display: inline-block;
 }
