@@ -149,9 +149,11 @@ body {
 }
 .issue {
   position: absolute;
-  left: 46.5%;
+  left: 46%;
   top: 55%;
-  font-size: 36px;
+  font-size: 34px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
 }
 .issue .colorset {
   color: #484bff;
