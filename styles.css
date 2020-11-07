@@ -152,8 +152,9 @@ body {
   left: 48%;
   top: 55%;
   font-size: large;
+  width: 140px;
+  height: 55px;
 }
-.colorset {
+.issue .colorset {
   color: #484bff;
-  size: 20px;
 }
