@@ -171,12 +171,11 @@ body {
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
-  margin: 10px auto;
   display: flex;
 }
 
 .sub_topic{
-  width: 300px;
+  width: 200px;
   height: 300px;
   text-align: center;
   display: inline-block;
