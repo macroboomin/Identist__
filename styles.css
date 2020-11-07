@@ -149,10 +149,10 @@ body {
   padding: 0 6px;
 }
 .issue {
-  display: flex;
-  float: none;
-  justify-content: center;
-  align-items: center;
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-size: 34px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
