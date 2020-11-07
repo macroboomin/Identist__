@@ -70,10 +70,10 @@ body {
   border: 1px solid #484bff;
   padding: 5px;
 }
-#searchbutton {
+.searchbutton {
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
 }
 #searchbutton button {
   border: 1px solid #484bff;
