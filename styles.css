@@ -150,7 +150,7 @@ body {
 }
 .issue {
   display: flex;
-  float: left;
+  float: none;
   justify-content: center;
   align-content: center;
   font-size: 34px;
