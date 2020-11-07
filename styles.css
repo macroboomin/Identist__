@@ -74,7 +74,7 @@ body {
   top: 42%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
 }
 #searchbutton button {
   border: 1px solid #484bff;
