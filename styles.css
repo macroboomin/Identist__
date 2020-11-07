@@ -170,6 +170,9 @@ body {
   top: 70%;
   left: 50%;
   transform: translateX(-50%);
+  text-align: center;
+  margin: 10px auto;
+  display: flex;
 }
 
 .sub_topic{
