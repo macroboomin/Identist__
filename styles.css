@@ -151,9 +151,7 @@ body {
   position: absolute;
   left: 48%;
   top: 55%;
-  font-size: large;
-  width: 140px;
-  height: 55px;
+  font-size: 40px;
 }
 .issue .colorset {
   color: #484bff;
