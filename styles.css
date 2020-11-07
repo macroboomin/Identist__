@@ -163,3 +163,11 @@ body {
 .colorset {
   color: #484bff;
 }
+
+#topic {
+  float: left;
+  position: relative;
+  top: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+}
