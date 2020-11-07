@@ -30,6 +30,9 @@ body {
   font-style: normal;
   text-decoration: none;
 }
+.navigation_link{
+  text-decoration: none;
+}
 #Login {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
