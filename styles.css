@@ -70,10 +70,12 @@ body {
   border: 1px solid #484bff;
   padding: 5px;
 }
-.searchbutton {
+#searchbutton {
   display: flex;
   justify-content: center;
   align-items: center;
+  top: 42%;
+  left: 41%;
 }
 #searchbutton button {
   border: 1px solid #484bff;
@@ -149,7 +151,7 @@ body {
 }
 .issue {
   position: absolute;
-  left: 45.4%;
+  left: 45%;
   top: 55%;
   font-size: 34px;
   font-family: "Roboto", sans-serif;
