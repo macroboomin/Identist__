@@ -177,9 +177,10 @@ body {
 .topic_child{
   width: 200px;
   height: 100px;
-  text-align: center;
+  text-align: left;
   display: inline-block;
   font-size: 18px;
+  margin: 10px;
 }
 
 .topic_child_topic{
