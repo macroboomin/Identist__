@@ -149,8 +149,9 @@ body {
   padding: 0 6px;
 }
 .issue {
-  position: absolute;
-  left: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   top: 55%;
   font-size: 34px;
   font-family: "Roboto", sans-serif;
