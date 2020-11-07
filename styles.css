@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import "reset.css";
 @import "header.css";
 a {
@@ -30,11 +30,11 @@ body {
   left: 42.6%;
   top: 38px;
   color: #373f41;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   text-decoration: none;
 }
-.navigation_link{
+.navigation_link {
   text-decoration: none;
 }
 #Login {
@@ -43,7 +43,7 @@ body {
   margin-right: -4px;
   color: #3c64b1;
   background-color: white;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
 }
 #Start {
@@ -52,7 +52,7 @@ body {
   margin-left: -3px;
   color: white;
   background-color: #484bff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
 }
 #Login:hover {
@@ -138,10 +138,16 @@ body {
   font-size: 1rem;
   line-height: 30px;
   transition: 0.4s;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
 }
 .search-box:hover > .search-txt {
   width: 500px;
   padding: 0 6px;
+}
+.issue {
+  position: absolute;
+}
+.fas fa-bars {
+  color: #484bff;
 }
