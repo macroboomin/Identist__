@@ -71,7 +71,9 @@ body {
   padding: 5px;
 }
 #searchbutton {
-  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   top: 42%;
   left: 41%;
 }
