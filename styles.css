@@ -147,6 +147,8 @@ body {
 }
 .issue {
   position: absolute;
+  left: 40%;
+  top: 55%;
 }
 .colorset {
   color: #484bff;
