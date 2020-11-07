@@ -148,7 +148,7 @@ body {
   width: 500px;
   padding: 0 6px;
 }
-.issue {
+.body .issue {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -156,6 +156,6 @@ body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
 }
-.issue .colorset {
+.body .issue .colorset {
   color: #484bff;
 }
