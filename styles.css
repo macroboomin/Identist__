@@ -82,10 +82,12 @@ body {
 #Lucky {
   color: #3c64b1;
   background-color: white;
+  font-size: 15px;
 }
 #Recommendations {
   color: white;
   background-color: #484bff;
+  font-size: 15px;
 }
 .splitline {
   position: absolute;
