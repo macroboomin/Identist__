@@ -153,6 +153,7 @@ body {
   float: none;
   justify-content: center;
   align-content: center;
+  flex-direction: column;
   font-size: 34px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
