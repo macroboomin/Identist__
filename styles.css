@@ -149,9 +149,9 @@ body {
 }
 .issue {
   position: absolute;
-  left: 48%;
-  top: 55%;
-  font-size: 40px;
+  left: 45%;
+  top: 58%;
+  font-size: 37px;
 }
 .issue .colorset {
   color: #484bff;
