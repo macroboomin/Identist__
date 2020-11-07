@@ -150,6 +150,12 @@ body {
 }
 .issue {
   display: flex;
+  padding: 0;
+  width: 0px;
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
   justify-content: center;
   align-items: center;
   font-size: 34px;
