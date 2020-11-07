@@ -151,6 +151,7 @@ body {
   position: absolute;
   left: 40%;
   top: 55%;
+  font-size: large;
 }
 .colorset {
   color: #484bff;
