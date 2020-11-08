@@ -164,13 +164,8 @@ body {
   color: #484bff;
 }
 .topic {
-  float: none;
-  position: absolute;
-  top: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  display: flex;
+  display: table;
+  margin: auto;
 }
 .topic_child {
   width: 200px;
