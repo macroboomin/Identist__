@@ -170,7 +170,7 @@ body {
 .topic_child {
   width: 200px;
   height: 100px;
-  text-align: left;
+  text-align: center;
   display: inline-block;
   font-size: 18px;
   line-height: 160%;
