@@ -187,7 +187,7 @@ body {
 }
 
 .topic .topic_child_topic {
-  text-align: center;
+  text-align: left;
   font-size: 28px;
   line-height: 170%;
   font-family: "Roboto", sans-serif;
