@@ -33,31 +33,6 @@ body {
     cursor: pointer;
 }
 
-/* Masthead */
-
-.masthead {
-    display: flex;
-    align-items: center;
-    flex-basis: 6rem;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    background-color: #d12f2e;
-    color: #fff;
-    padding: 0 5rem;
-}
-
-.logo h1 {
-    font-size: 2.5rem;
-    font-weight: 600;
-    letter-spacing: -0.1rem;
-    white-space: nowrap;
-}
-
-.logo-icon {
-    padding-left: 0.5rem;
-    vertical-align: middle;
-}
 
 .vault-search {
     flex: 1 0 19.2rem;
