@@ -164,7 +164,7 @@ body {
   color: #484bff;
 }
 .topic {
-  float: left;
+  float: none;
   position: absolute;
   top: 70%;
   margin-left: auto;
