@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import "reset.css";
-@import "header.css";
 
 a { text-decoration: none; }
     a:visited { text-decoration: none; }

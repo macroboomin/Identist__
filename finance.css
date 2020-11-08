@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import "reset.css";
+
  /* Layout For CodePen */
 
  @import url(https://fonts.googleapis.com/css?family=Fira+Sans:700);
-
  * {
    -webkit-box-sizing: border-box;
    -moz-box-sizing: border-box;
@@ -12,6 +13,78 @@
    text-align:center;
    color: #fff;
  }
+
+
+a { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:focus { text-decoration: none; }
+a:hover, a:active { text-decoration: none; }
+
+.glanlink{
+color: #3c64b1;
+}
+
+body {
+margin: 0;
+padding: 0;
+background-color: #f3f6fa;
+}
+.main_bar {
+display: flex;
+text-decoration: none;
+}
+.main_bar .logo {
+position: absolute;
+left: 1px;
+top: 0px;
+width: auto;
+height: auto;
+max-height: 92px;
+left: 10px;
+background: url(logo.png);
+border-radius: 20px;
+}
+.main_bar .selection {
+position: absolute;
+left: 42.6%;
+top: 38px;
+color: #3c64b1;
+font-family: "Roboto", sans-serif;
+font-style: normal;
+text-decoration: none;
+}
+
+.navigation_link {
+text-decoration: none;
+color: #3c64b1;
+}
+
+#Login {
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+margin-right: -4px;
+color: #3c64b1;
+background-color: white;
+font-family: "Roboto", sans-serif;
+font-style: normal;
+width: 68px;
+}
+#Start {
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+margin-left: -3px;
+color: white;
+background-color: #484bff;
+font-family: "Roboto", sans-serif;
+font-style: normal;
+}
+#Login:hover {
+transform: scale(1.1);
+}
+#Start:hover {
+transform: scale(1.1);
+}
  
  h1 {
    color: #222;
@@ -54,6 +127,8 @@
    margin: 0 0 5px 0;
   }  
   
+
+
  }
  
  
