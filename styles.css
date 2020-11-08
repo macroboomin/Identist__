@@ -9,6 +9,9 @@ a { text-decoration: none; }
     a:focus { text-decoration: none; }
     a:hover, a:active { text-decoration: none; }
 
+.glasslink{
+  color: #3c64b1;
+}
 
 body {
   margin: 0;
