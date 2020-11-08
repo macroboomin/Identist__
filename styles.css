@@ -168,7 +168,7 @@ body {
   float: left;
   position: absolute;
   top: 70%;
-  left: 55.5%;
+  left: 56%;
   transform: translateX(-50%);
   text-align: center;
   display: flex;
@@ -187,7 +187,7 @@ body {
 }
 
 .topic .topic_child_topic {
-  text-align: center;
+  text-align: left;
   font-size: 28px;
   line-height: 170%;
   font-family: "Roboto", sans-serif;
