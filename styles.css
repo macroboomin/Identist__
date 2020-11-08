@@ -169,6 +169,8 @@ body {
   top: 70%;
   left: 55.5%;
   transform: translate(-50%, -50%);
+  margin-left: 135px;
+  margin-right: 135px;
   text-align: center;
   display: flex;
 }
