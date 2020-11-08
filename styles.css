@@ -163,16 +163,10 @@ body {
 .colorset {
   color: #484bff;
 }
-
-.topic {
-  float: left;
-  position: absolute;
-  top: 70%;
-  left: 56%;
-  transform: translateX(-50%);
-  text-align: center;
-  display: flex;
+footer {
+  bottom: 20px;
 }
+
 .topic .topic_child {
   width: 200px;
   height: 100px;
@@ -191,7 +185,4 @@ body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   color: black;
-}
-footer {
-  bottom: 20px;
 }
