@@ -11,6 +11,7 @@ body {
 }
 .main_bar {
   display: flex;
+  text-decoration: none;
 }
 .main_bar .logo {
   position: absolute;
