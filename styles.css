@@ -170,6 +170,7 @@ body {
   left: 55.5%;
   transform: translateX(-50%);
   text-align: center;
+  display: flex;
 }
 .topic_child {
   width: 200px;
