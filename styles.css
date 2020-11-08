@@ -164,15 +164,10 @@ body {
   color: #484bff;
 }
 .topic {
-  float: left;
-  position: absolute;
-  top: 70%;
-  left: 56%;
-  transform: translateX(-50%);
   text-align: center;
-  display: flex;
+  padding: 50px 0;
 }
-.topic .topic_child {
+.topic_child {
   width: 200px;
   height: 100px;
   text-align: left;
@@ -182,8 +177,9 @@ body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   color: gray;
+  margin: 0 2px;
 }
-.topic .topic_child_topic {
+.topic_child_topic {
   text-align: left;
   font-size: 28px;
   line-height: 170%;
