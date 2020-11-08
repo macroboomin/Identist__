@@ -106,9 +106,11 @@ transform: scale(1.1);
  
  .grid {
    width: 100%;
+   height: 40px;
    display: table;
    border-collapse:separate;
    border-spacing:15px;
+
  }
  
  .grid-row {
