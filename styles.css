@@ -174,7 +174,7 @@ body {
   display: flex;
 }
 
-.topic_child {
+.topic .topic_child {
   width: 200px;
   height: 100px;
   text-align: left;
@@ -186,7 +186,7 @@ body {
   color: gray;
 }
 
-.topic_child_topic {
+.topic .topic_child_topic {
   text-align: left;
   font-size: 28px;
   line-height: 170%;
