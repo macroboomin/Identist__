@@ -164,9 +164,15 @@ body {
   color: #484bff;
 }
 .topic {
-  display: table;
-  margin: auto;
+  float: left;
+  position: absolute;
+  top: 70%;
+  left: 55.5%;
+  transform: translateX(-50%);
+  text-align: center;
+  display: flex;
 }
+
 .topic_child {
   width: 200px;
   height: 100px;
@@ -178,6 +184,7 @@ body {
   font-style: normal;
   color: gray;
 }
+
 .topic_child_topic {
   text-align: left;
   font-size: 28px;
