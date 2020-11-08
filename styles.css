@@ -2,8 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import "reset.css";
 @import "header.css";
-a {
-  text-decoration: none  ;
+
+.visited{
+  text-decoration: none;
 }
 
 body {
@@ -38,6 +39,7 @@ body {
   text-decoration: none;
   color: #3c64b1;
 }
+
 #Login {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
