@@ -3,9 +3,11 @@
 @import "reset.css";
 @import "header.css";
 a {
-  text-decoration: none;
-  color: black;
+  text-decoration: none  ;
 }
+a.visited{
+  text-decoration: none;
+} 
 body {
   margin: 0;
   padding: 0;
