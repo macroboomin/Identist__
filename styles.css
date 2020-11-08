@@ -4,7 +4,6 @@
 @import "header.css";
 a {
   text-decoration: none;
-  color: #3c64b1;
 }
 body {
   margin: 0;
@@ -29,13 +28,14 @@ body {
   position: absolute;
   left: 42.6%;
   top: 38px;
-  color: #373f41;
+  color: #3c64b1;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   text-decoration: none;
 }
 .navigation_link {
   text-decoration: none;
+  color: #3c64b1;
 }
 #Login {
   border-top-left-radius: 5px;
