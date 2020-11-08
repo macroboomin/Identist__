@@ -167,10 +167,10 @@ body {
   float: left;
   position: absolute;
   top: 70%;
-  left: 55.5%;
+  left: 50%;
   transform: translateX(-50%);
   text-align: center;
-  display: flex;
+  margin: -50px 0 0 -50px;
 }
 
 .topic_child {
