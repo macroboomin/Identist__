@@ -165,7 +165,7 @@ body {
 }
 .topic {
   text-align: center;
-  padding: 560px 0;
+  padding: 460px 0 0 0;
 }
 .topic_child {
   width: 200px;
