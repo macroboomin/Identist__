@@ -163,7 +163,6 @@ body {
 .colorset {
   color: #484bff;
 }
-
 .topic {
   float: left;
   position: absolute;
@@ -171,10 +170,8 @@ body {
   left: 55.5%;
   transform: translateX(-50%);
   text-align: center;
-  display: flex;
 }
-
-.topic_child{
+.topic_child {
   width: 200px;
   height: 100px;
   text-align: left;
@@ -185,8 +182,7 @@ body {
   font-style: normal;
   color: gray;
 }
-
-.topic_child_topic{
+.topic_child_topic {
   text-align: left;
   font-size: 28px;
   line-height: 170%;
