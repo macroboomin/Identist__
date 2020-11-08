@@ -1,6 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import "reset.css";
+/*
+
+All grid code is placed in a 'supports' rule (feature query) at the bottom of the CSS (Line 380). 
+    
+The 'supports' rule will only run if your browser supports CSS grid.
+
+Flexbox is used as a fallback so that browsers which don't support grid will still recieve an identical layout.
+
+*/
+
+/* Base Styles */
 
 :root {
     font-size: 10px;
@@ -33,6 +44,31 @@ body {
     cursor: pointer;
 }
 
+/* Masthead */
+
+.masthead {
+    display: flex;
+    align-items: center;
+    flex-basis: 6rem;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #d12f2e;
+    color: #fff;
+    padding: 0 5rem;
+}
+
+.logo h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: -0.1rem;
+    white-space: nowrap;
+}
+
+.logo-icon {
+    padding-left: 0.5rem;
+    vertical-align: middle;
+}
 
 .vault-search {
     flex: 1 0 19.2rem;
