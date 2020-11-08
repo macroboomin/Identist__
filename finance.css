@@ -1,35 +1,42 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap");
 @import "reset.css";
 //import font from google
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900);
+//import font from google
+@import url(
+  https://fonts.googleapis.com/css?family=Roboto:400,
+  300,
+  100,
+  500,
+  700,
+  900
+);
 
 //import compass
 @import "compass";
 
 //custom mixins
-@mixin transformSkewScale($x, $y){
-    -webkit-transform: skew($x) scaleX($y);
-    -ms-transform: skew($x) scaleX($y);
-    transform: skew($x) scaleX($y);
+@mixin transformSkewScale($x, $y) {
+  -webkit-transform: skew($x) scaleX($y);
+  -ms-transform: skew($x) scaleX($y);
+  transform: skew($x) scaleX($y);
 }
 
 //options
-$itemPerRow    : 3; // here you can change the grid items per row.
-$colMargin     : 1; // change gaps between each grid item.
-$itemWidth     : 100% / $itemPerRow - $colMargin * 2;
-$valueToMargin : percentage($colMargin/100);
+$itemPerRow: 3; // here you can change the grid items per row.
+$colMargin: 1; // change gaps between each grid item.
+$itemWidth: 100% / $itemPerRow - $colMargin * 2;
+$valueToMargin: percentage($colMargin/100);
 
 //colors
-$primary-color   : #333;
-$secondary-color : #fff;
-$font-color      : #fff;
-
+$primary-color: #333;
+$secondary-color: #fff;
+$font-color: #fff;
 
 //demo styles
-.grid-wrap{
+.grid-wrap {
   padding: $valueToMargin;
 }
-.list-block{
+.list-block {
   float: left;
   margin: $valueToMargin;
   width: $itemWidth;
@@ -37,7 +44,7 @@ $font-color      : #fff;
   overflow: hidden;
   @include border-radius(30px);
   @include box-shadow(0px 6px 20px rgba(0, 0, 0, 0.2));
-  figure{
+  figure {
     position: relative;
     display: block;
     color: darken($font-color, 100%);
@@ -49,12 +56,12 @@ $font-color      : #fff;
       position: absolute;
       left: 0;
       bottom: 0;
-      content: '';
+      content: "";
       @include opacity(0.7);
       @include transformSkewScale(-45deg, 0);
       @include transition(all 0.3s ease-in-out);
     }
-    
+
     &:hover {
       &:after {
         @include transformSkewScale(-45deg, 1);
@@ -75,7 +82,7 @@ $font-color      : #fff;
     }
   }
   img {
-    @include opacity (1);
+    @include opacity(1);
     max-width: 100%;
     min-width: 100%;
     @include transition(opacity 0.35s ease);
@@ -92,7 +99,7 @@ $font-color      : #fff;
   p {
     margin: 0;
     width: 100%;
-    @include opacity (0);
+    @include opacity(0);
   }
   h2 {
     padding: 0 30px 10px;
@@ -106,15 +113,14 @@ $font-color      : #fff;
     font-size: 14px;
     text-transform: uppercase;
   }
-
 }
-.demo-2 figure{
+.demo-2 figure {
   figcaption p {
     margin-top: -45px;
   }
   &:after {
     @include transformSkewScale(-45deg, 0);
-  }    
+  }
   &:hover {
     &:after {
       @include transformSkewScale(45deg, 1);
@@ -125,56 +131,55 @@ $font-color      : #fff;
   }
 }
 
-.demo-3 figure{
+.demo-3 figure {
   figcaption {
     @include translateY(-10%);
     h2,
     p {
-      @include opacity (1);
+      @include opacity(1);
     }
   }
   &:after {
     @include transformSkewScale(0deg, 1);
-  }    
+  }
   &:hover {
     &:after {
       @include transformSkewScale(45deg, 0);
     }
     figcaption {
       @include translateY(-10%);
-      @include opacity (0);
-    }    
-    img{
+      @include opacity(0);
+    }
+    img {
       @include scale(1.2);
       @include transition(all 0.6s ease);
     }
-  } 
-  img{
+  }
+  img {
     @include scale(1);
     @include transition(all 0.3s ease);
   }
 }
 
 //////////////////////////
-  /*----page styles---*/
+/*----page styles---*/
 //////////////////////////
 * {
   box-sizing: border-box;
   @include transition(all 0.6s ease);
 }
-html,body{
+html,
+body {
   min-height: 100%;
 }
-body{
-background-color: #21D4FD;
-background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+body {
+  background-color: #21d4fd;
+  background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
 
-        
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-
-h1{
+h1 {
   //background-color: darken($primary-color, 10%);
   color: white;
   padding: $valueToMargin * 4;
@@ -182,7 +187,7 @@ h1{
   text-transform: uppercase;
   font-weight: 700;
   text-align: center;
-  small{
+  small {
     font-size: 18px;
     display: block;
     text-transform: none;
@@ -191,9 +196,8 @@ h1{
   }
 }
 
-
 //follow me template
-.made-with-love{
+.made-with-love {
   margin-top: 30px;
   padding: 10px;
   font-size: 10px;
@@ -201,18 +205,19 @@ h1{
   clear: left;
   text-align: center;
   color: #fff;
-  i{
+  i {
     font-style: normal;
-    color: #F50057;
+    color: #f50057;
     font-size: 14px;
     position: relative;
     top: 2px;
   }
-  a{
+  a {
     color: #fff;
     text-decoration: none;
-    &:hover{
+    &:hover {
       text-decoration: underline;
     }
   }
 }
+
