@@ -3,9 +3,6 @@
 @import "reset.css";
 @import "header.css";
 
-.visited{
-  text-decoration: none;
-}
 
 body {
   margin: 0;
@@ -35,6 +32,11 @@ body {
   font-style: normal;
   text-decoration: none;
 }
+
+.main_bar .visited{
+  text-decoration: none;
+}
+
 .navigation_link {
   text-decoration: none;
   color: #3c64b1;
