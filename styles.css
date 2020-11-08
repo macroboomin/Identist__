@@ -170,7 +170,7 @@ body {
 .topic_child {
   width: 200px;
   height: 100px;
-  text-align: center;
+  text-align: left;
   display: inline-block;
   font-size: 18px;
   line-height: 160%;
@@ -180,7 +180,7 @@ body {
   margin: 0 2px;
 }
 .topic_child_topic {
-  text-align: left;
+  text-align: center;
   font-size: 28px;
   line-height: 170%;
   font-family: "Roboto", sans-serif;
