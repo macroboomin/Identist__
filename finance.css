@@ -1,223 +1,60 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap");
 @import "reset.css";
-//import font from google
-//import font from google
-@import url(
-  https://fonts.googleapis.com/css?family=Roboto:400,
-  300,
-  100,
-  500,
-  700,
-  900
-);
+ /* Layout For CodePen */
 
-//import compass
-@import "compass";
+ @import url(https://fonts.googleapis.com/css?family=Fira+Sans:700);
 
-//custom mixins
-@mixin transformSkewScale($x, $y) {
-  -webkit-transform: skew($x) scaleX($y);
-  -ms-transform: skew($x) scaleX($y);
-  transform: skew($x) scaleX($y);
-}
-
-//options
-$itemPerRow: 3; // here you can change the grid items per row.
-$colMargin: 1; // change gaps between each grid item.
-$itemWidth: 100% / $itemPerRow - $colMargin * 2;
-$valueToMargin: percentage($colMargin/100);
-
-//colors
-$primary-color: #333;
-$secondary-color: #fff;
-$font-color: #fff;
-
-//demo styles
-.grid-wrap {
-  padding: $valueToMargin;
-}
-.list-block {
-  float: left;
-  margin: $valueToMargin;
-  width: $itemWidth;
-  font-size: 0;
-  overflow: hidden;
-  @include border-radius(30px);
-  @include box-shadow(0px 6px 20px rgba(0, 0, 0, 0.2));
-  figure {
-    position: relative;
-    display: block;
-    color: darken($font-color, 100%);
-    text-align: center;
-    &:after {
-      background: $secondary-color;
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      left: 0;
-      bottom: 0;
-      content: "";
-      @include opacity(0.7);
-      @include transformSkewScale(-45deg, 0);
-      @include transition(all 0.3s ease-in-out);
-    }
-
-    &:hover {
-      &:after {
-        @include transformSkewScale(-45deg, 1);
-        @include transition(all 400ms cubic-bezier(0.175, 0.885, 0.32, 1.275));
-      }
-      figcaption h2,
-      figcaption p {
-        @include translate3d(0%, 0%, 0);
-        -webkit-transition-delay: 0.2s;
-        transition-delay: 0.2s;
-      }
-      figcaption h2 {
-        @include opacity(1);
-      }
-      figcaption p {
-        @include opacity(0.7);
-      }
-    }
+ * {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   font-family: 'Fira Sans', sans-serif;
+   text-align:center;
+   color: #fff;
+ }
+ 
+ h1 {
+   color: #222;
+   text-align:center;
+ }
+ 
+  /* The Grid */
+ 
+ .grid {
+   width: 100%;
+   display: table;
+   border-collapse:separate;
+   border-spacing:15px;
+ }
+ 
+ .grid-row {
+   width: 100%;
+   display: table;
+   table-layout: fixed;
+   margin:0 0 -15px 0;
+ }
+ 
+ .item {
+   display: table-cell;
+   background: #e84485;
+   padding: 2%;
+ }
+ 
+ @media screen and (max-width: 480px) {
+ 
+  .grid-row {
+     display: block;
+     width: 100%;
+     margin:0;
   }
-  img {
-    @include opacity(1);
-    max-width: 100%;
-    min-width: 100%;
-    @include transition(opacity 0.35s ease);
-  }
-  figcaption {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    width: 100%;
-    @include translateY(-50%);
-    z-index: 1;
-  }
-  h2,
-  p {
-    margin: 0;
-    width: 100%;
-    @include opacity(0);
-  }
-  h2 {
-    padding: 0 30px 10px;
-    display: inline-block;
-    font-weight: 400;
-    text-transform: uppercase;
-    font-size: 24px;
-  }
-  p {
-    padding: 0 50px;
-    font-size: 14px;
-    text-transform: uppercase;
-  }
-}
-.demo-2 figure {
-  figcaption p {
-    margin-top: -45px;
-  }
-  &:after {
-    @include transformSkewScale(-45deg, 0);
-  }
-  &:hover {
-    &:after {
-      @include transformSkewScale(45deg, 1);
-    }
-    figcaption p {
-      margin-top: 0;
-    }
-  }
-}
-
-.demo-3 figure {
-  figcaption {
-    @include translateY(-10%);
-    h2,
-    p {
-      @include opacity(1);
-    }
-  }
-  &:after {
-    @include transformSkewScale(0deg, 1);
-  }
-  &:hover {
-    &:after {
-      @include transformSkewScale(45deg, 0);
-    }
-    figcaption {
-      @include translateY(-10%);
-      @include opacity(0);
-    }
-    img {
-      @include scale(1.2);
-      @include transition(all 0.6s ease);
-    }
-  }
-  img {
-    @include scale(1);
-    @include transition(all 0.3s ease);
-  }
-}
-
-//////////////////////////
-/*----page styles---*/
-//////////////////////////
-* {
-  box-sizing: border-box;
-  @include transition(all 0.6s ease);
-}
-html,
-body {
-  min-height: 100%;
-}
-body {
-  background-color: #21d4fd;
-  background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
-
-  font-family: "Roboto", sans-serif;
-}
-
-h1 {
-  //background-color: darken($primary-color, 10%);
-  color: white;
-  padding: $valueToMargin * 4;
-  font-size: 30px;
-  text-transform: uppercase;
-  font-weight: 700;
-  text-align: center;
-  small {
-    font-size: 18px;
-    display: block;
-    text-transform: none;
-    font-weight: 300;
-    margin-top: 5px;
-  }
-}
-
-//follow me template
-.made-with-love {
-  margin-top: 30px;
-  padding: 10px;
-  font-size: 10px;
-  font-family: arial;
-  clear: left;
-  text-align: center;
-  color: #fff;
-  i {
-    font-style: normal;
-    color: #f50057;
-    font-size: 14px;
-    position: relative;
-    top: 2px;
-  }
-  a {
-    color: #fff;
-    text-decoration: none;
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-}
-
+   
+  .item {
+   display: block;
+   width: 100%;
+   margin: 0 0 5px 0;
+  }  
+  
+ }
+ 
+ 
+ 
