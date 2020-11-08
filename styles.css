@@ -167,14 +167,14 @@ body {
   float: left;
   position: absolute;
   top: 70%;
-  left: 50%;
+  left: 55.5%;
   transform: translateX(-50%);
   text-align: center;
   margin: -50px 0 0 -50px;
 }
 
 .topic_child {
-  width: 175px;
+  width: 200px;
   height: 100px;
   text-align: left;
   display: inline-block;
