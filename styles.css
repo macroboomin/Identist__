@@ -191,6 +191,12 @@ body {
   text-decoration: none;
   margin: 0 2px;
 }
+.glantopiclink{
+  color: black;
+}
+.glansublink{
+  color: gray;
+}
 .topic_child_topic {
   text-align: center;
   font-size: 28px;
