@@ -177,6 +177,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   color: gray;
+  text-decoration: none;
   margin: 0 2px;
 }
 .topic_child_topic {
