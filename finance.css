@@ -94,6 +94,8 @@ transform: scale(1.1);
   border: 1.5px solid #484bff;
   padding: 5px;
 }
+
+
  
  h1 {
    color: #222;
@@ -113,7 +115,7 @@ transform: scale(1.1);
    width: 100%;
    display: table;
    table-layout: fixed;
-   margin:0 0 -15px 0;
+   margin:0 0 -40px 0;
  }
  
  .item {
