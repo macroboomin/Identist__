@@ -163,10 +163,15 @@ body {
 .colorset {
   color: #484bff;
 }
-footer {
-  bottom: 20px;
+.topic {
+  float: left;
+  position: absolute;
+  top: 70%;
+  left: 56%;
+  transform: translateX(-50%);
+  text-align: center;
+  display: flex;
 }
-
 .topic .topic_child {
   width: 200px;
   height: 100px;
