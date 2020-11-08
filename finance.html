@@ -13,7 +13,70 @@
 
 <body>
     <!-- Main Content -->
-    <main class="main-content">
+<main class="main-content">
+
+	<!-- Masthead -->
+	<div class="masthead">
+
+		<div class="logo">
+			<h1>LastPass<i class="fas fa-ellipsis-h logo-icon" aria-hidden="true"></i></h1>
+		</div>
+
+		<div class="vault-search">
+			<form>
+				<input type="search" class="search-input" placeholder="search my vault" aria-label="search vault">
+				<i class="fas fa-search search-icon" aria-hidden="true"></i>
+			</form>
+		</div>
+
+		<div class="user-settings" tabindex="0" aria-label="User Settings">
+			<div class="user-image">
+				<i class="fas fa-user-circle" aria-hidden="true"></i>
+			</div>
+			<ul class="user-info">
+				<li class="user-email">email@example.com</li>
+				<li class="user-type">Premium User</li>
+			</ul>
+			<div class="user-arrow-btn">
+				<i class="fas fa-caret-down" aria-hidden="true"></i>
+			</div>
+		</div>
+
+	</div>
+	<!-- End of masthead -->
+
+	<!-- Vault items controls-->
+	<div class="vault-items-controls">
+
+		<h2>All items</h2>
+
+		<button class="vault-items-controls-btn btn" aria-label="Collapse Items" title="Collapse Items">
+                <i class="fas fa-caret-up" aria-hidden="true"></i>
+            </button>
+
+		<button class="vault-items-controls-btn btn" aria-label="Compact View" title="Compact View">
+                <i class="fas fa-search-minus" aria-hidden="true"></i>
+            </button>
+
+		<div class="vault-items-controls-group">
+
+			<button class="vault-items-controls-btn btn current" aria-label="Grid View" title="Grid View">
+                    <i class="fas fa-th-large" aria-hidden="true"></i>
+                </button>
+
+			<button class="vault-items-controls-btn btn" aria-label="List View" title="List View">
+                    <i class="fas fa-list" aria-hidden="true"></i>
+                </button>
+
+		</div>
+
+		<button class="vault-items-controls-btn btn" aria-label="Sort Options" title="Sort Options">
+                <i class="fas fa-sort" aria-hidden="true"></i>
+            </button>
+
+	</div>
+	<!-- End of vault items controls-->
+
 	<!-- Vault items container -->
 	<div class="vault-items-container">
 
@@ -405,7 +468,8 @@
 	</div>
 	<!-- End of vault items container -->
 
-
+</main>
+<!-- End of main content -->
 
 <!-- Sidebar -->
 <nav class="sidebar">
@@ -506,9 +570,5 @@
 
 </nav>
 <!-- End of sidebar -->
-
-
-</main>
-<!-- End of main content -->
 </body>
 </html>
