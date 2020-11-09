@@ -2,13 +2,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import "reset.css";
 
-a { text-decoration: none; }
-    a:visited { text-decoration: none; }
-    a:hover { text-decoration: none; }
-    a:focus { text-decoration: none; }
-    a:hover, a:active { text-decoration: none; }
-
-.glanlink{
+a {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:focus {
+  text-decoration: none;
+}
+a:hover,
+a:active {
+  text-decoration: none;
+}
+.glanlink {
   color: #3c64b1;
 }
 
@@ -190,10 +200,10 @@ body {
   text-decoration: none;
   margin: 0 2px;
 }
-.glantopiclink{
+.glantopiclink {
   color: black;
 }
-.glansublink{
+.glansublink {
   color: gray;
 }
 .topic_child_topic {
